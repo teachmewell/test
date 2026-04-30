@@ -1,0 +1,27 @@
+<meta http-equiv="refresh" content=20>
+<title>秘密</title>
+   </head>
+
+   <body>
+<h1> 标签一共有六个层级，这是h1。</h1>
+<h2> 标签一共有六个层级，这是h2。接下来看区块元素和行内元素</h2>
+
+<p><strong> 行内元素，是strong部分</strong> </p>
+<p><em> 这是em </em> </p>
+
+<p><a href="https://www.youtube.com/watch?v=wgdMuxtW0q0&list=RDwgdMuxtW0q0&start_radio=1/play">这是a href, 是其他页面的>
+<ol>
+ <li> 编号1 </li>
+<li> 编号2 </li>
+<li> <a href="https://www.lichess.org/https://upload.wikimedia.org/wikipedia/commons/0/07/Marx_Lenin_oval.svg"> 在li 里>
+</ol>
+
+
+<blockquote cite="https://www.lichess.org/source"> quote no1, source. 输入 br <br> 加断行。接下来加图片 </blockquote>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Marx_Lenin_oval.svg" alt="error: no website link >
+<img src="Linux/Ubuntu/home/pnynjn/picdeletable/pic1.jpg" alt="error: no idea why">
+
+   </body>
+
+</html>
+         
