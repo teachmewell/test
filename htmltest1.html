@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+   <head>
+<meta charset="UTF-8">
+<meta name="nameinmeta" 
+content="width=device-width, initial-scale=0.8">
+<meta http-equiv="refresh" content=50000>
+<title>秘密</title>
+
+<link rel="icon" href="https://media1.tenor.com/m/-5WHiRuY25MAAAAC/lenin-vladimir-lenin.gif">
+
+<style>
+ .btn { background-color: lightgrey;
+      color: black;
+outline: 8px solid brown;
+padding:150px 100px;
+font-size:32px;
+}
+
+
+ .btx { background-color: darkgrey;
+      color: pink;
+font-size: 25px;
+position: relative;
+outline: 9px solid red;
+cursor:pointer;
+padding:100px 150px;}
+
+
+    body {
+      background-color: grey;
+    }
+  </style>
+
+
+   </head>
+
+
+
+   <body>
+
+<button class="btx" onclick="playMusic()"> 播放一首曲子<p> starts a song </p> </button>
+<button class="btn" onclick="pauseMusic()"> 暂停原来曲子 <p> stops song <p> if last one was on, </p> else start </p> </button>
+<button class="btx"  onclick="work()"> 特别安静曲子 <p>totally silent song</p> </button>
+<button class="btn" onclick="window.location.href =
+'https://www.youtube.com/shorts/_6HzLIJPH2A'"><img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIF.
+ohdbbZovqiWhSH%252ftuM2DOw%26pid%3DApi&f=1&ipt
+=5a7ca98a5d9fb7998107314af0bfcebd7b65e38bbf8359a03c9dcb1c2897e42f' alt="error: no idea why"> 别按这里 <p>this is another </p> song</button> 
+
+
+<script>
+const song = new Audio("https://www.marxists.org/history/ussr/sounds/mp3/soviet-anthem1944.mp3");
+const so = new Audio("https://www.marxists.org/history/ussr/sounds/mp3/soviet-anthem.mp3")
+const wor = new Audio("https://upload.wikimedia.org/wikipedia/commons/3/35/%D0%93%D0%B8%D0%BC%D0%BD_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8_%D0%B8_%D0%A0%D0%94%D0%A4%D0%A0_%28%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F-%D0%9C%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D1%8C%D0%B5%D0%B7%D0%B0%29.oga")
+
+function playMusic() { 
+song.loop = true;
+ song.play();
+}
+function work(){
+wor.play();
+}
+
+function pauseMusic() {
+  so.play();
+}
+</script>
+
+
+
+
+<h1> 标签一共有六个层级，这是h1。</h1>
+<h2> 标签一共有六个层级，这是h2。接下来看区块元素和行内元素</h2>
+
+<p> p is a block <span> span takes more place </span> than usual </p>
+
+<p><strong> 行内元素，是strong部分</strong> </p>
+<p><em> 这是em </em> </p>
+
+
+<button class="btx" onclick="window.location.href='https://www.w3schools.com/html/html_basic.asp'"> 
+<img src="https://media1.tenor.com/m/dC34gH4WzUYAAAAd/nyan-sheep.gif"> this button to learn this </button>
+
+<button onclick="document.getElementById().play()">Play</button>
+<audio id="a" src="song.mp3"></audio>
+
+
+<p style:red> p> style:red; </p>
+
+<p><a href="https://www.youtube.com/watch?v=wgdMuxtW0q0&list=RDwgdMuxtW0q0&start_radio=1/play">
+这是a href, 是其他页面的链接。接下来看清单或列表, 是 ol& ul. 里面每一组li都是清单中的一个项目 </a> </p> 
+<ol> 
+
+ <li> 编号1 </li>
+<li> 编号2 </li>
+
+<li> <a href="https://www.lichess.org/https://upload.wikimedia.org/wikipedia/commons/0/07/Marx_Lenin_oval.svg"> 在li 里写一个 a</a>
+
+ <a href="second.html"> 在li 里写一个 a二号</a>  </li>
+</ol>
+
+
+<blockquote cite="https://www.lichess.org/source"> quote no1, source. 输入 br <br> 加断行。接下来加图片 </blockquote>
+<img src="newordner/pic1.png" alt=
+"error: local pic to display: download a picture into folder ´newordner´, same heigth as the place this html is stored in. name it pic1.pgn">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIF.
+ohdbbZovqiWhSH%252ftuM2DOw%26pid%3DApi&f=1&ipt
+=5a7ca98a5d9fb7998107314af0bfcebd7b65e38bbf8359a03c9dcb1c2897e42f" alt="error: no idea why">
+
+<button> button </button>
+<button disabled> buttoon disabled </button>
+<iframe src="https://www.youtube.com/embed/U06jlgpMtQs" allow="autoplay; encrypted-media; fullscreen" allowfullscreen > </iframe>
+<button type="submit"> type =submit" button </button>
+<button type="submit"> type =submit" button </button>
+
+<audio controls> <source src="https://www.marxists.org/history/ussr/sounds/mp3/soviet-anthem1944.mp3" type="audio/mpeg" autoplay></audio>
+
+<iframe src="https://www.bilibili.com/video/BV1Wm4y1W7Cw/?autoplay=1&mute=0" loading="eager" ></iframe>
+
+<p> DO </p>
+<p>not </p>
+<p> scroll </p>
+<p> down </p>
+<p> do </p>
+<p> not </p>
+<p> scroll </p>
+<p> down </p>
+<p> abc </p>
+<p> </p>
+<p> abc </p>
+<p> </p>
+<p> abc </p>
+<p> </p>
+<p> abc </p>
+<p> DO </p>
+<p>not </p>
+<p> scroll </p>
+<p> down </p>
+<p> do </p>
+<p> not </p>
+<p> scroll </p>
+<p> down </p>
+<p> DO </p>
+<p>not </p>
+<p> scroll </p>
+<p> down </p>
+<p> do </p>
+<p> not </p>
+<p> scroll </p>
+<p> down </p>
+
+<iframe src="https://www.bilibili.com/video/BV1Wm4y1W7Cw/?loop=1" width="800" height="600" ></iframe>
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.meme-arsenal.com%2Fmemes%2F6bddab812d62cf1d9df2b6ac538c257f.jpg&f=1&nofb=1&ipt=86b65dc317b686318b0019d035db29edd7aac0c7ab1526727cc5fcac4e104e16">
+   </body>
+
+</html>
+ 
